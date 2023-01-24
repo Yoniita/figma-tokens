@@ -1,5 +1,5 @@
 {
-  "Light": {
+  "Core": {
     "White": {
       "value": "#ffffff",
       "type": "color"
@@ -30,16 +30,6 @@
       "1": {
         "value": "150%",
         "type": "lineHeights"
-      }
-    },
-    "fontWeights": {
-      "ax-la-solid-900-0": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "poppins-1": {
-        "value": "Regular",
-        "type": "fontWeights"
       }
     },
     "fontSize": {
@@ -92,20 +82,22 @@
         "type": "fontFamilies"
       }
     },
-    "button font": {
-      "small": {
-        "value": {
-          "fontFamily": "{fontFamilies.poppins}",
-          "fontWeight": "{fontWeights.poppins-1}",
-          "lineHeight": "{lineHeights.1}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+    "fontWeights": {
+      "ax-la-solid-900-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "poppins-1": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    }
+  },
+  "Dark": {
+    "primary": {
+      "500": {
+        "value": "#da0fde",
+        "type": "color"
       }
     },
     "icon font": {
@@ -123,20 +115,28 @@
         },
         "type": "typography"
       }
-    }
-  },
-  "Dark": {
-    "primary": {
-      "500": {
-        "value": "#da0fde",
-        "type": "color"
+    },
+    "button font": {
+      "small": {
+        "value": {
+          "fontFamily": "{fontFamilies.poppins}",
+          "fontWeight": "{fontWeights.poppins-1}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
       }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Light",
+      "Core",
       "Dark"
     ]
   }
