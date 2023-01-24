@@ -131,6 +131,19 @@
         },
         "type": "typography"
       }
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{fontFamilies.poppins}",
+        "fontWeight": "{fontWeights.poppins-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "textDecoration": "{textDecoration.none}",
+        "textCase": "{textCase.none}"
+      },
+      "type": "typography"
     }
   },
   "$themes": [],
