@@ -22,12 +22,6 @@
       "value": "4",
       "type": "spacing"
     },
-    "fontFamilies": {
-      "ax-la-solid-900": {
-        "value": "ax-la-solid-900",
-        "type": "fontFamilies"
-      }
-    },
     "lineHeights": {
       "0": {
         "value": "20",
@@ -57,20 +51,6 @@
         "value": "0",
         "type": "paragraphSpacing"
       }
-    },
-    "icon font small": {
-      "value": {
-        "fontFamily": "{fontFamilies.ax-la-solid-900}",
-        "fontWeight": "{fontWeights.ax-la-solid-900-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
-        "textCase": "{textCase.none}",
-        "textDecoration": "{textDecoration.none}"
-      },
-      "type": "typography"
     },
     "textCase": {
       "none": {
