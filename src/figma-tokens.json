@@ -1,5 +1,5 @@
 {
-  "global": {
+  "Light": {
     "White": {
       "value": "#ffffff",
       "type": "color"
@@ -81,12 +81,61 @@
         "value": "0px",
         "type": "dimension"
       }
+    },
+    "fontFamilies": {
+      "ax-la-solid-900": {
+        "value": "ax-la-solid-900",
+        "type": "fontFamilies"
+      },
+      "poppins": {
+        "value": "Poppins",
+        "type": "fontFamilies"
+      }
+    },
+    "icon font small": {
+      "value": {
+        "fontFamily": "{fontFamilies.ax-la-solid-900}",
+        "fontWeight": "{fontWeights.ax-la-solid-900-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "button font": {
+      "small": {
+        "value": {
+          "fontFamily": "{fontFamilies.poppins}",
+          "fontWeight": "{fontWeights.poppins-1}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "Dark": {
+    "primary": {
+      "500": {
+        "value": "#da0fde",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "Light",
+      "Dark"
     ]
   }
 }
