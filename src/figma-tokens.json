@@ -6,7 +6,7 @@
     },
     "Primary": {
       "400": {
-        "value": "#fd9843",
+        "value": "#94ba18",
         "type": "color"
       },
       "500": {
@@ -14,7 +14,7 @@
         "type": "color"
       },
       "600": {
-        "value": "#ca6510",
+        "value": "#00ffac",
         "type": "color"
       }
     },
