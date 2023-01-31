@@ -87,10 +87,106 @@
       }
     }
   },
-  "Dark": {
-    "primary": {
+  "New company theme": {
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Primary": {
+      "400": {
+        "value": "#9829ff",
+        "type": "color"
+      },
       "500": {
-        "value": "#da0fde",
+        "value": "#7b61ff",
+        "type": "color"
+      },
+      "600": {
+        "value": "#00ffac",
+        "type": "color"
+      }
+    },
+    "small": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "Core": {
+      "lineHeights": {
+        "0": {
+          "value": "20",
+          "type": "lineHeights"
+        },
+        "1": {
+          "value": "150%",
+          "type": "lineHeights"
+        }
+      },
+      "fontFamilies": {
+        "poppins": {
+          "value": "Poppins",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeights": {
+        "poppins-1": {
+          "value": "Regular",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "20",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "value": "0px",
+        "type": "dimension"
+      }
+    }
+  },
+  "New company - color": {
+    "Primary": {
+      "400": {
+        "value": "#000000",
+        "type": "color"
+      }
+    }
+  },
+  "Component tokens level": {
+    "primary": {
+      "400": {
+        "value": "$Primary.400",
         "type": "color"
       }
     },
@@ -108,11 +204,22 @@
       "type": "typography"
     }
   },
+  "Light": {
+    "Primary": {
+      "500": {
+        "value": "#ff8034",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Core",
-      "Dark"
+      "New company theme",
+      "New company - color",
+      "Component tokens level",
+      "Light"
     ]
   }
 }
