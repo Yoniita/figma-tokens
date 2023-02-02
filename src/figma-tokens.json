@@ -6,7 +6,7 @@
     },
     "Primary": {
       "400": {
-        "value": "#94ba18",
+        "value": "hsl(100,60,34)",
         "type": "color"
       },
       "500": {
@@ -15,6 +15,10 @@
       },
       "600": {
         "value": "#00ffac",
+        "type": "color"
+      },
+      "800": {
+        "value": "hsl({mars.hue}, {saturation.100}, {luminosity.100})",
         "type": "color"
       }
     },
@@ -84,6 +88,24 @@
       "0": {
         "value": "0px",
         "type": "dimension"
+      }
+    },
+    "saturation": {
+      "100": {
+        "value": "44%",
+        "type": "other"
+      }
+    },
+    "luminosity": {
+      "100": {
+        "value": "50%",
+        "type": "other"
+      }
+    },
+    "mars": {
+      "hue": {
+        "value": "100",
+        "type": "color"
       }
     }
   },
@@ -202,6 +224,12 @@
         "textCase": "{textCase.none}"
       },
       "type": "typography"
+    },
+    "Card": {
+      "Body": {
+        "value": "{body}",
+        "type": "typography"
+      }
     }
   },
   "Light": {
