@@ -1,16 +1,19 @@
 /**
  * Do not edit directly
- * Generated on Tue, 24 Jan 2023 14:10:50 GMT
+ * Generated on Fri, 03 Feb 2023 10:59:01 GMT
  */
 
 :root {
   --ax-core-white: #ffffff;
-  --ax-core-primary-400: #fd9843;
+  --ax-core-primary-400: hsl(100,60,34);
   --ax-core-primary-500: #7b61ff;
-  --ax-core-primary-600: #ca6510;
+  --ax-core-primary-600: #00ffac;
+  --ax-core-primary-800: hsl(100, 44%, 50%);
   --ax-core-small: 4;
-  --ax-core-line-heights-0: 20;
-  --ax-core-line-heights-1: 150%;
+  --ax-core-core-line-heights-0: 20;
+  --ax-core-core-line-heights-1: 150%;
+  --ax-core-core-font-families-poppins: Poppins;
+  --ax-core-core-font-weights-poppins-1: Regular;
   --ax-core-font-size-0: 16;
   --ax-core-font-size-1: 20;
   --ax-core-letter-spacing-0: 0%;
@@ -18,8 +21,58 @@
   --ax-core-text-case-none: none;
   --ax-core-text-decoration-none: none;
   --ax-core-paragraph-indent-0: 0px;
+  --ax-core-saturation-100: 44%;
+  --ax-core-luminosity-100: 50%;
+  --ax-core-mars-hue: 100;
+  --ax-core-md: 8;
+  --ax-core-lg: 16;
+  --ax-core-line-heights-0: 20;
+  --ax-core-line-heights-1: 150%;
   --ax-core-font-families-poppins: Poppins;
   --ax-core-font-weights-poppins-1: Regular;
-  --ax-dark-primary-500: #da0fde;
-  --ax-dark-body: [object Object];
+  --ax-new-company-theme-white: #ffffff;
+  --ax-new-company-theme-primary-400: #9829ff;
+  --ax-new-company-theme-primary-500: #7b61ff;
+  --ax-new-company-theme-primary-600: #00ffac;
+  --ax-new-company-theme-small: 4;
+  --ax-new-company-theme-core-line-heights-0: 20;
+  --ax-new-company-theme-core-line-heights-1: 150%;
+  --ax-new-company-theme-core-font-families-poppins: Poppins;
+  --ax-new-company-theme-core-font-weights-poppins-1: Regular;
+  --ax-new-company-theme-font-size-0: 16;
+  --ax-new-company-theme-font-size-1: 20;
+  --ax-new-company-theme-letter-spacing-0: 0%;
+  --ax-new-company-theme-paragraph-spacing-0: 0;
+  --ax-new-company-theme-text-case-none: none;
+  --ax-new-company-theme-text-decoration-none: none;
+  --ax-new-company-theme-paragraph-indent-0: 0px;
+  --ax-component-tokens-level-primary-400: $Primary.400;
+  --ax-component-tokens-level-body: [object Object];
+  --ax-component-tokens-level-card-body: [object Object];
+  --ax-component-tokens-level-button-padding: 8 16;
+  --ax-primary-400: #9829ff;
+  --ax-body: [object Object];
+  --ax-card-body: [object Object];
+  --ax-button-padding: 8 16;
+  --ax-white: #ffffff;
+  --ax-primary-400: #9829ff;
+  --ax-primary-500: #7b61ff;
+  --ax-primary-600: #00ffac;
+  --ax-primary-800: #6db847;
+  --ax-small: 4;
+  --ax-font-size-0: 16;
+  --ax-font-size-1: 20;
+  --ax-letter-spacing-0: 0%;
+  --ax-paragraph-spacing-0: 0;
+  --ax-text-case-none: none;
+  --ax-text-decoration-none: none;
+  --ax-paragraph-indent-0: 0px;
+  --ax-saturation-100: 44%;
+  --ax-luminosity-100: 50%;
+  --ax-mars-hue: 100;
+  --ax-md: 8;
+  --ax-lg: 16;
+  --ax-token-set-order-0: Core;
+  --ax-token-set-order-1: New company theme;
+  --ax-token-set-order-2: Component tokens level;
 }
