@@ -1,0 +1,170 @@
+{
+    "primary": {
+        "400": {
+            "value": "#9829ff",
+            "type": "color"
+        }
+    },
+    "body": {
+        "value": {
+            "fontFamily": "Poppins",
+            "fontWeight": "Regular",
+            "lineHeight": 20,
+            "fontSize": 20,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "textDecoration": "none",
+            "textCase": "none"
+        },
+        "type": "typography"
+    },
+    "Card": {
+        "Body": {
+            "value": {
+                "fontFamily": "Poppins",
+                "fontWeight": "Regular",
+                "lineHeight": 20,
+                "fontSize": 20,
+                "letterSpacing": "0%",
+                "paragraphSpacing": 0,
+                "textDecoration": "none",
+                "textCase": "none"
+            },
+            "type": "typography"
+        }
+    },
+    "button padding": {
+        "value": "8 16",
+        "type": "spacing"
+    },
+    "White": {
+        "value": "#ffffff",
+        "type": "color"
+    },
+    "Primary": {
+        "400": {
+            "value": "#9829ff",
+            "type": "color"
+        },
+        "500": {
+            "value": "#7b61ff",
+            "type": "color"
+        },
+        "600": {
+            "value": "#00ffac",
+            "type": "color"
+        },
+        "800": {
+            "value": "#6db847",
+            "type": "color"
+        }
+    },
+    "small": {
+        "value": 4,
+        "type": "spacing"
+    },
+    "Core": {
+        "lineHeights": {
+            "0": {
+                "value": 20,
+                "type": "lineHeights"
+            },
+            "1": {
+                "value": "150%",
+                "type": "lineHeights"
+            }
+        },
+        "fontFamilies": {
+            "poppins": {
+                "value": "Poppins",
+                "type": "fontFamilies"
+            }
+        },
+        "fontWeights": {
+            "poppins-1": {
+                "value": "Regular",
+                "type": "fontWeights"
+            }
+        }
+    },
+    "fontSize": {
+        "0": {
+            "value": 16,
+            "type": "fontSizes"
+        },
+        "1": {
+            "value": 20,
+            "type": "fontSizes"
+        }
+    },
+    "letterSpacing": {
+        "0": {
+            "value": "0%",
+            "type": "letterSpacing"
+        }
+    },
+    "paragraphSpacing": {
+        "0": {
+            "value": 0,
+            "type": "paragraphSpacing"
+        }
+    },
+    "textCase": {
+        "none": {
+            "value": "none",
+            "type": "textCase"
+        }
+    },
+    "textDecoration": {
+        "none": {
+            "value": "none",
+            "type": "textDecoration"
+        }
+    },
+    "paragraphIndent": {
+        "0": {
+            "value": "0px",
+            "type": "dimension"
+        }
+    },
+    "saturation": {
+        "100": {
+            "value": "44%",
+            "type": "other"
+        }
+    },
+    "luminosity": {
+        "100": {
+            "value": "50%",
+            "type": "other"
+        }
+    },
+    "mars": {
+        "hue": {
+            "value": 100,
+            "type": "color"
+        }
+    },
+    "md": {
+        "value": 8,
+        "type": "spacing"
+    },
+    "lg": {
+        "value": 16,
+        "type": "spacing"
+    },
+    "tokenSetOrder": {
+        "0": {
+            "value": "Core",
+            "type": "other"
+        },
+        "1": {
+            "value": "New company theme",
+            "type": "other"
+        },
+        "2": {
+            "value": "Component tokens level",
+            "type": "other"
+        }
+    }
+}
